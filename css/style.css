@@ -127,6 +127,47 @@ button {
     border-bottom: 1px dashed #dedede;
 }
 
+.content-page1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.subject1 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #dedede;
+    border-right: 1px dashed #dedede;
+}
+
+.subject2 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #dedede;
+    border-right: 1px dashed #dedede;
+}
+
+.subject3 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #dedede;
+}
+
+.subject4 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    border-right: 1px dashed #dedede;
+}
+
+.subject5 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    border-right: 1px dashed #dedede;
+}
+
+.subject6 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
 
 /* About Me (Left Sidebar) */
 
