@@ -56,7 +56,6 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Poppins", sans-serif;
-    background: #fafafa !important;
 }
 
 html {
@@ -105,18 +104,12 @@ button {
     outline: 0;
 }
 
-#main {
-    margin: 50px 0;
-}
+
 
 .main-color {
     color: #1abc9c;
 }
 
-.page-body {
-    background: #ffffff;
-    box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
-}
 
 .sub-title {
     padding: 30px;
@@ -451,7 +444,6 @@ figure {
 /* Container for skill bars */
 .container {
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
     padding-right: 0px;
 }
 
@@ -544,21 +536,25 @@ figure {
 
 /* About Me (Left Sidebar) */
 
-
-.my-pic {
-    width: 100%;
-    box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 6px solid #2575AE;
 }
 
 .my-pic img {
+       border-radius: 50%;
     width: 100%;
+
 }
 
 .my-detail {
     text-align: center;
     margin-bottom: 30px;
     background: #ffffff;
-    box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
+
 }
 
 .my-detail .white-spacing {
@@ -1230,19 +1226,10 @@ blockquote {
 /* Footer */
 
 .footer {
-    background: url(../images/bg/pattern-bg.png);
-    background-repeat: repeat;
     text-align: center;
-    padding: 30px 0;
-    margin-top: 10px;
 }
 
-.body1 {
-    background: url(../images/bg/pattern-bg.png);
 
-    padding: 30px 0;
-    margin-top: 10px;
-}
 
 .footer p {
     color: #797878;
@@ -2017,20 +2004,19 @@ blockquote {
 
 
 
-/* UiPasta Credit */
+/* Frndzzy Credit */
 
-.uipasta-credit {
+.frndzzy-credit {
     color: #333333;
     text-align: center;
-    margin-top: 20px;
 }
 
-.uipasta-credit a {
+.frndzzy-credit a {
     color: #1abc9c;
     font-weight: 600;
 }
 
-.uipasta-credit a:hover {
+.frndzzy-credit a:hover {
     color: #333333;
 }
 
@@ -2086,4 +2072,10 @@ p[data-value]:after {
                                                         rgba(255, 255, 255, .25),
                                                         rgba(0,0,0,.2)),
      -webkit-linear-gradient( left, #09c, #f44);
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
 }
